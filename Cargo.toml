@@ -1,0 +1,12 @@
+[package]
+name = "rust-async-await-course-example"
+version = "0.1.0"
+edition = "2021"
+authors = ["Danny Willems"]
+description = "Rust async/await course examples demonstrating state machines and async patterns"
+
+[dependencies]
+tokio = { version = "1.35", features = ["full"] }
+reqwest = { version = "0.11", features = ["json"] }
+
+[dev-dependencies]
